@@ -1,0 +1,87 @@
+.searchComboBox_container {
+  width: 400px;
+}
+
+.searchComboBox_inputWrapper {
+  display: flex;
+  align-items: center;
+}
+
+.searchComboBox_input {
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  flex: 1;
+}
+
+.searchComboBox_input {
+  border-bottom-style: none;
+}
+
+.searchComboBox_input:focus,
+.searchComboBox_input:hover {
+  outline: none;
+  border-color: #ccc;
+}
+
+.searchComboBox_button,
+.wyborZleceniodawcyView-clientCardButton,
+.wyborZleceniodawcyView-checkboxGotowka {
+  display: inline-flex;
+  align-items: center;
+  border: none;
+  cursor: pointer;
+  padding: 8px;
+  border-radius: 4px;
+}
+
+.searchComboBox_button.active,
+.wyborZleceniodawcyView-checkboxGotowka.active {
+  background-color: #f8f8f8;
+}
+
+.wyborZleceniodawcyView-clientCardButton:hover {
+  background-color: #059bd7;
+  color: #fff;
+}
+
+.searchComboBox_info,
+.searchComboBox_comments {
+  color: #888;
+  margin-top: 4px;
+  margin-bottom: 10px;
+}
+
+.searchComboBox_list {
+  background-color: #fff;
+  border: 1px solid #ccc;
+  border-top: none;
+  width: 374px;
+  max-height: 200px;
+  overflow-y: auto;
+}
+
+.searchComboBox_list > div {
+  padding: 8px;
+  cursor: pointer;
+}
+
+.searchComboBox_list > div:hover {
+  background-color: #e0e0e0;
+}
+
+.searchComboBox_list > div.selected,
+.searchComboBox_list > div.selected:hover {
+  background-color: #f8f8f8;
+}
+
+.searchComboBox_selectedItems {
+  margin-top: 5px;
+  margin-bottom: 10px;
+  font-size: 18px;
+}
+
+.searchComboBox_selectedItemsDisabled {
+  color: #888;
+  font-size: 18px;
+}

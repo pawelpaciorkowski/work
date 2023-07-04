@@ -1,0 +1,19 @@
+.daneKliniczneContainer {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.daneKliniczneTekst {
+  margin-right: 10px;
+  margin-bottom: 10px;
+}
+
+.daneKliniczneWybraneBadania {
+  margin-top: 10px;
+  text-align: left;
+}
+
+
+
+
+

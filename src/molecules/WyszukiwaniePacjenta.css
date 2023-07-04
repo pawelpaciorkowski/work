@@ -1,0 +1,21 @@
+/* WyszukiwaniePacjenta.css */
+
+.inputField {
+  margin-right: 10px;
+}
+
+.searchResults {
+  list-style-type: none;
+}
+
+.searchResults li {
+  margin-bottom: 5px;
+}
+
+.registerButton {
+  margin-top: 20px;
+}
+
+.resultButton {
+  margin-left: 10px;
+}

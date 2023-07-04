@@ -1,0 +1,17 @@
+.wybranyZleceniodawca_container {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.wybranyZleceniodawca_icon {
+  margin-right: 8px;
+}
+
+.wybranyZleceniodawca_name {
+  font-weight: bold;
+}
+
+.wybranyZleceniodawca_comments {
+  color: #888;
+}

@@ -1,0 +1,68 @@
+.error-message {
+    color: red;
+    visibility: hidden;
+  }
+  
+  .error-message.visible {
+    visibility: visible;
+  }
+  
+  .manual-entry-container {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .manual-entry-container > div {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 10px;
+  }
+  
+  .manual-entry-container label {
+    flex-basis: 120px;
+    margin-right: 10px;
+  }
+  
+  .manual-entry-container input,
+  .manual-entry-container textarea {
+    flex-grow: 1;
+    max-width: 300px;
+  }
+  
+  /* Nowe style dla pól adresowych w jednej linii */
+  .manual-entry-container .address-line {
+    display: flex;
+    flex-direction: row;
+    align-items: center; /* Dodajemy wyrownanie pionowe */
+    margin-bottom: 10px;
+  }
+  
+  .manual-entry-container .address-line label {
+    flex-basis: 120px;
+    margin-right: 10px;
+    margin-left: 10px;
+  }
+  
+  .manual-entry-container .address-line input {
+    flex-grow: 1;
+    max-width: 300px;
+    margin-right: 10px;
+  }
+  
+  .manual-entry-container .address-line input#buildingNumberInput,
+  .manual-entry-container .address-line input#apartmentNumberInput {
+    max-width: 100px; /* Ustawiamy szerokość 100px dla pól numeru budynku i numeru mieszkania */
+  }
+  
+  /* Nowe style dla checkboxów */
+  .manual-entry-container .checkbox-line {
+    display: flex;
+    flex-direction: row;
+    align-items: center; /* Dodajemy wyrownanie pionowe */
+    margin-bottom: 10px;
+  }
+  
+  .manual-entry-container .checkbox-line input[type="checkbox"] {
+    margin-right: 10px;
+  }
+  
